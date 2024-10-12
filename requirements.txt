@@ -1,0 +1,36 @@
+# Chainlit and LangChain dependencies
+chainlit==0.7.500
+langchain==0.3.0
+langchain-core==0.3.0
+langchain-community==0.3.0
+langchain-huggingface==0.1.0  # Compatible with tokenizers>=0.19.1
+
+# Hugging Face dependencies
+huggingface-hub==0.23.0
+transformers==4.40.1  # Updated to support tokenizers>=0.19.1
+tokenizers==0.19.1  # Matches langchain-huggingface requirement
+
+# FAISS for vector store
+faiss-cpu==1.8.0.post1
+
+# Document loaders, text splitters, embeddings
+pymupdf==1.24.0
+numpy==1.24.4
+
+# Environment variables management
+python-dotenv==1.0.0
+
+# FastAPI and async support
+aiofiles==23.1.0
+aiohttp==3.8.5
+asyncer==0.0.2
+nest-asyncio==1.5.6
+
+# Progress bar for asynchronous tasks
+tqdm==4.66.1
+
+# Pydantic 2.x (compatible with both Chainlit and Langchain)
+pydantic==2.7.4
+
+# Other dependencies
+requests==2.31.0
